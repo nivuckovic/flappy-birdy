@@ -1,0 +1,67 @@
+﻿  Background.cpp
+  Flappy.cpp
+  GameEngine.cpp
+  GameObject.cpp
+  main.cpp
+  Obstacle.cpp
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\GameEngine.cpp(8,29): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:         with
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:             T=float
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:         ]
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:         and
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:             T=int
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,75): warning C4244:         ]
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:         with
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:             T=float
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:         ]
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:         and
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:             T=int
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(11,56): warning C4244:         ]
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:         with
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:             T=float
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:         ]
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:         and
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:             T=int
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,84): warning C4244:         ]
+  ParticleSystem.cpp
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244: 'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:         with
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:             T=float
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:         ]
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:         and
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:             T=int
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\Obstacle.cpp(16,62): warning C4244:         ]
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\ParticleSystem.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\ParticleSystem.cpp(54,120): warning C4244: 'argument': conversion from 'sf::Int32' to 'float', possible loss of data
+  PlayingState.cpp
+  RNG.cpp
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\ParticleSystem.cpp(73,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(9,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,41): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,41): warning C4244:         with
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,41): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,41): warning C4244:             _Ty=int
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,41): warning C4244:         ]
+  State.cpp
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,38): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,38): warning C4244:         with
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,38): warning C4244:         [
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,38): warning C4244:             _Ty=int
+C:\Users\nivuc\source\repos\Flappy Bird Clone\Flappy Bird Clone\Source\RNG.cpp(15,38): warning C4244:         ]
+  Generating code
+  741 of 743 functions (99.7%) were compiled, the rest were copied from previous compilation.
+    655 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Flappy Bird Clone.vcxproj -> C:\Users\nivuc\source\repos\Flappy Bird Clone\Release\Flappy Bird Clone.exe
