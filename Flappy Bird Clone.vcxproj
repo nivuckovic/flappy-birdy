@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\AnimatedSprite.cpp" />
     <ClCompile Include="Source\Background.cpp" />
     <ClCompile Include="Source\Flappy.cpp" />
     <ClCompile Include="Source\GameEngine.cpp" />
@@ -141,6 +142,7 @@
     <ClCompile Include="Source\State.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\AnimatedSprite.h" />
     <ClInclude Include="Include\Background.h" />
     <ClInclude Include="Include\Context.h" />
     <ClInclude Include="Include\Cooldown.h" />

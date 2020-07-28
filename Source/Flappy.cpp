@@ -2,7 +2,7 @@
 
 
 Flappy::Flappy(Context& context, GameObjectType type) 
-	: GameObject(context, type), m_gravity(0.f, 0.2f), m_sprite(25.f), m_jumpPressed(false), m_particleSystem(30), m_playing(false)
+	: GameObject(context, type), m_flyingAnimation(getContext().m_textureHolder.get(ID::Textures::FLAPPY), 3), m_gravity(0.f, 0.2f), m_sprite(25.f), m_jumpPressed(false), m_particleSystem(30), m_playing(false)
 {
 	m_sprite.setTexture(&getContext().m_textureHolder.get(ID::Textures::FLAPPY));
 	setPosition(sf::Vector2f(100.f, 400.f));
@@ -12,6 +12,9 @@ void Flappy::update(sf::Time& dt) {
 	if (isJumpPressed())
 		jump();
 	
+	updateAnimation(dt);
+	rotateFlappy();
+
 	m_particleSystem.setEmitter(getPosition() + sf::Vector2f(getCollider().getRadius() / 2, getCollider().getRadius() / 2));
 	m_particleSystem.update(dt);
 
@@ -20,8 +23,6 @@ void Flappy::update(sf::Time& dt) {
 
 	addVelocity(m_gravity);
 	setPosition(getPosition() + getVelocity());
-
-
 }
 
 void Flappy::render() {
@@ -93,4 +94,13 @@ void Flappy::setJumpPressed(bool val) {
 
 bool Flappy::isJumpPressed() const {
 	return m_jumpPressed;
+}
+
+void Flappy::updateAnimation(sf::Time& dt) {
+	m_flyingAnimation.update(dt);
+	m_sprite.setTextureRect(m_flyingAnimation.getFrame());
+}
+
+void Flappy::rotateFlappy() {
+	// dodati
 }

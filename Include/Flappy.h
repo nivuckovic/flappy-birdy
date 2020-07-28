@@ -4,6 +4,7 @@
 
 #include "GameObject.h"
 #include "ParticleSystem.h"
+#include "AnimatedSprite.h"
 
 class Flappy : public GameObject {
 public:
@@ -28,14 +29,17 @@ public:
 	void jump();
 	void onCollisionEnter();
 
-
-
 	void setJumpPressed(bool val);
 	bool isJumpPressed() const;
 
 private:
+	void updateAnimation(sf::Time& dt);
+	void rotateFlappy();
+
+private:
 	sf::CircleShape m_sprite;
 	ParticleSystem m_particleSystem;
+	AnimatedSprite m_flyingAnimation;
 
 	sf::Vector2f m_velocity;
 	sf::Vector2f m_acceleration;
