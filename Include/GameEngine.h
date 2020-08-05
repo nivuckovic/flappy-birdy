@@ -5,6 +5,7 @@
 
 #include "Context.h"
 #include "State.h"
+#include "Enums.h"
 
 class GameEngine {
 public:
@@ -26,5 +27,6 @@ private:
 	sf::Clock m_clock;
 
 	std::vector<std::unique_ptr<State>> m_stateStack;
+	std::vector<StateStack::Action> m_pendingActions;
 };
 

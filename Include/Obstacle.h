@@ -32,6 +32,8 @@ private:
 	sf::RectangleShape m_bottom;
 	sf::RectangleShape m_top;
 
+	sf::Texture& m_texture;
+
 	float m_offset;
 	float m_spawnPositionX;
 	float m_obstacleWidth;

@@ -15,3 +15,12 @@ namespace ID {
 		LENGTH
 	};
 }
+
+namespace StateStack {
+	enum class Action {
+		PUSH,
+		POP,
+
+		LENGTH
+	};
+}
